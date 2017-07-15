@@ -60,5 +60,5 @@ One of the key features of the script is that it has the ability to read a log f
 * There are extremely rare instances in which apache/nginx writes lines that are not in dated chronological order. This is usually minimal data but if you suspect this and the missing data discrepancy is important to your use case, then you also have the option to tell the script to read the whole log file, top to bottom without breaking off.
 
 **Miscellaneous**
-
+traffic_analyser.py  --min 320000   -l   20170613-access.log
 * There may be cases where you don't necassarily need the geo information per ip in which case you can disable this information for faster results. 
